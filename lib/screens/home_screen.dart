@@ -11,6 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  // List<Note> notes = List.empty(growable: true);
   List<Note> notes = List.empty(growable: true);
   @override
   Widget build(BuildContext context) {
